@@ -33,7 +33,7 @@ def reply():
             return str(res)
 
         if option == 1:
-            res.message(res.message("You can contact us through phone or e-mail.\n\n*Phone*: 991234 56789 \n*E-mail* : contact@theredvelvet.io"))
+            res.message(res.message("You can contact us through phone or e-mail.\n\n*Phone*: 9945512345 \n*E-mail* : mycontact@thecakeshop.com"))
         elif option == 2:
             res.message("You have entered *ordering mode*.")
             users.update_one({"number": number}, {"$set": {"status": "ordering"}})
