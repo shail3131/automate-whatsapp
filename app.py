@@ -3,7 +3,7 @@ from twilio.twiml.messaging_response import MessagingResponse
 from pymongo import MongoClient
 from datetime import datetime
 
-cluster = MongoClient("mongodb+srv://shailendrasingh823:Anjali3131@cluster0.viuenkn.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+cluster = MongoClient("mongodb+srv://shailendrasingh823:Anjali3131@cluster0.viuenkn.mongodb.net/bakery?retryWrites=true&w=majority")
 
 db = cluster["bakery"]
 users = db["users"]
